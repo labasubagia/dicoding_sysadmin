@@ -1,0 +1,16 @@
+  987  df -h -BG | grep -v tmpfs | awk '{ print $5 }'
+  988  df -h -BG | grep -v tmpfs | awk '{ print $1 $5 }'
+  989  df -h -BG | grep -v tmpfs | awk '{ print $1 " " $5 }'
+  990  df -h -BG | grep -v tmpfs | awk '{ print $1 \t $5 }'
+  991  df -h -BG | grep -v tmpfs | awk '{ print $1 "\t" $5 }'
+  992  ./labasubagia22.sh
+  993  history
+  997  man zip
+  998  thunar .
+ 1000  ./script-labasubagia22.sh
+ 1001  history > history-labasubagia22.txt
+ 1003  cd project-shell
+ 1004  zip submission1-linux-labasubagia22.zip script-labasubagia22.sh history-labasubagia22.txt
+ 1005* ls -l
+ 1006* man df
+ 1007* grep --help
